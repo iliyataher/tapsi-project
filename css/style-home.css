@@ -1,0 +1,345 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+
+
+.main{
+    background-image: url(banner\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.main img{
+    width: 470px;
+}
+
+.main{
+    position: relative;
+}
+
+.box-d-app-header{
+    position: absolute;
+    top: 10%;
+    right: 20%;                                        
+    text-align: right;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
+}
+
+.box-d-app-header h2{
+    font-size: 45px;
+}
+
+.box-d-app-header h5{
+    font-size: 20px;
+}
+
+.boxButtons-header{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.boxButtons-header button{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.boxButtons-header button a{
+    text-decoration: none;
+}
+
+.boxButtons-header span{
+    padding: 5px;
+}
+
+.container-haeder{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.servises-header-tapsi{
+    text-align: right;
+}
+
+.Box-Servises-Tapsi{
+    margin:0px 100px 0px 100px ;
+}
+
+.item-servises{
+    text-align: center;
+    margin: 10px;
+}
+
+.item-servises img{
+    width: 100px;
+    opacity: 0.55;
+    transition: all ease 200ms;
+}
+
+.item-servises img:hover{
+    opacity: 1;
+}
+
+.box-item-servises{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.box-tabsi-classic{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box-tabsi-classic img{
+    width: 100%;
+}
+
+.tabsi-classic{
+    margin: 50px 100px 0px 100px;
+}
+
+.tabsi-classic h3{
+    font-size: 30px;
+}
+
+.box-tabsi-classic p{
+    font-size: 20px;
+    padding: 30px;      
+}
+
+.kasbokar-tabsi-servises{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: right;
+    margin: 0px 100px 0px 100px;
+}
+
+.kasbokar-tabsi-servises div img{
+    width: 100%;
+}
+
+.kasbokar-tabsi-servises div p{
+    padding: 30px;
+}
+
+.kasbokar-tabsi-servises div a{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+.kasbokar-tabsi-servises{
+    margin-top: 100px;
+}
+
+.kasbokar-tabsi-servises h3{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.kasbokar-tabsi-servises div button , .kasbokar-tabsi-servises div a{
+    display: block;
+}
+
+.kasbokar-tabsi-servises div button{
+    float: right;
+    margin-top: 20px;
+}
+
+.buy-code-tabsi{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px 100px 0px 100px;
+}
+
+.buy-code-tabsi h3{
+    font-size: 30px;
+}
+
+.buy-code-tabsi p{
+    padding: 30px;
+}
+
+.text-servises{
+    width: 100%;
+    height: 200px;
+    background-image: url(parallax.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+
+.item-text-servises{
+    width: 100%;
+}
+
+.item-text-servises p{
+    padding: 20px;
+}
+
+
+
+.divar{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+
+.item-text-servises h3:hover .item-text-servises p{
+    display: block;
+}
+
+.Advantages-tapsi{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #4d4d4d;
+    margin: 50px 100px 0px 100px;
+}
+
+.Advantages-tapsi h4{
+    font-size: 40px;
+}
+
+.Advantages-tapsi p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Advantages-tapsi h5{
+    font-size: 25px;
+}
+
+.Advantages-tapsi h5 a{
+    text-decoration: none;
+    color: #0065dc;
+}
+
+.Advantages-tapsi ul li{
+    list-style-type: none;
+    direction: rtl;
+    font-size: 20px;
+}
+.Advantages-tapsi div{
+    margin-top: 40px;
+}
+
+.Advantages-tapsi img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.utton-signUp-tapsi{
+    background-color: #0065dc;
+    color: white;
+    width: 50%;
+    display: inline;
+}
+
+.buttons-tapsi-Advantages{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.buttons-tapsi-Advantages button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #0065dc;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons-tapsi-Advantages button:hover{
+    opacity: 0.85;
+}
+
+.buttons-tapsi-Advantages button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.new-blog-tapsi{
+    margin: 100px 100px 0px 100px;
+}
+
+
+
+.new-blog-tapsi h5{
+    font-size: 45px;
+}
+
+
+.box-new-blog-tapsi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item-new-blog-tapsi{
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all ease 200ms;
+}
+
+.item-new-blog-tapsi:hover{
+    transform: scale(0.95);
+}
+
+.item-new-blog-tapsi img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item-new-blog-tapsi h4{
+    font-size: 25px;
+}
+
+.item-new-blog-tapsi p{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.tapsi-in-iran{
+    margin: 0px 100px 0px 100px;
+}
+
+.tapsi-in-iran h3{
+    font-size: 45px;
+}
+
+.box-tapsi-in-iran{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    direction: rtl;
+}
+
+.item-tapsi-in-iran{
+    font-size: 25px;
+    margin: 5px;
+}
+
+

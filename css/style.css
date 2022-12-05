@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Yekan;
+    src: url(font/Yekan.ttf);
+}
+*{
+    font-family: Yekan;
+}
+
+.button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    background: #ff5722;
+    color: white;
+    border-radius: 15px;
+    transition: all ease 200ms;
+}
+
+.navbar{
+    height: auto;
+    background-color: rgb(227, 225, 225);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.item-navbar{
+    display: inline;
+    padding: 10px;
+}
+
+.item-navbar a.active{
+    color: #ff5722;
+}
+
+.logo{
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+.item-navbar a{
+    text-decoration: none;
+    color:black;
+    transition: all ease 200ms;
+}
+
+.item-navbar a:hover{
+    color: #ff5722;
+}
+
+.box-item-navbar{
+    padding-top: 10px;
+}
+
+.button-navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    background: #ff5722;
+    color: white;
+    border-radius: 15px;
+    transition: all ease 200ms;
+    margin-right: 20px;
+}
+
+.button-navbar:hover{
+    transform: scale(0.95);
+}
+
+.footer{
+    width: 99.8%;
+    height: auto;
+    border: 1px solid black;
+    z-index: 9999;
+    margin-top: 150px;
+    background-color: #393939;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    padding: 30px 0px 10px 0px;
+}
+
+.Box-Link{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.Box-Link-Footer{
+    margin: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Box-Link-Footer h4{
+    font-size: 20px;
+}
+
+.Box-Link-Footer a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+
+.Box-Link-Footer a:hover{
+    color: #ff5722;
+}
+
+.logo-footer{
+    text-align: center;
+}
+
+.logo-footer a{
+    margin: 3px;
+}
+
+.Box-Communicate{
+    width: 100%;
+}
+
+.imgFooter{
+    width:100px;
+    height: 100px;
+    border: 3px solid blue;
+    display: inline;
+}
+
+
+.Tapsi-In-Net{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.Tapsi-In-Net h4{
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+}
+
+.Tapsi-In-Net div{
+    display: flex;
+    justify-content: right;
+}
+
+.Tapsi-In-Net div span{
+    color: white;
+    padding: 10px;
+}
+
